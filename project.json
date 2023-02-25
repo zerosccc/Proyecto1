@@ -3,6 +3,7 @@
   "description": "Proceso que sirve de plantilla de reframwork",
   "main": "Main.xaml",
   "dependencies": {
+    "IBM.WatsonDeveloperCloud.NaturalLanguageUnderstanding.v1.Temp": "[0.2.0]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.PDF.Activities": "[3.4.1]",
@@ -17,7 +18,9 @@
   "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
     "excludedLoggedData": [
@@ -26,7 +29,9 @@
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
