@@ -306,7 +306,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <Transition.Condition>[exitStatus=0]</Transition.Condition>
             <Transition.To>
-              <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Interacciones con el aplicativo, envio de emails u otras acciones del proceso.&#xA;&#xA;Se pueden colocar tantas maquinas de estado como se necesiten." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="237,164" sap2010:WorkflowViewState.IdRef="State_5">
+              <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Interacciones con el aplicativo, envio de emails u otras acciones del proceso.&#xA;&#xA;Se pueden colocar tantas maquinas de estado como se necesiten." DisplayName="Process Transaction" sap:VirtualizedContainerService.HintSize="771,1055" sap2010:WorkflowViewState.IdRef="State_5">
                 <State.Entry>
                   <StateMachine InitialState="{x:Reference __ReferenceID1}" DisplayName="State Machine" sap:VirtualizedContainerService.HintSize="725,637" sap2010:WorkflowViewState.IdRef="StateMachine_1">
                     <sap:WorkflowViewStateService.ViewState>
@@ -319,11 +319,11 @@
                         <av:PointCollection x:Key="ConnectorLocation">190,77.6 190,107.6 188.84,107.6 188.84,127.6</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="Bloque donde haremos el invoke del workflow que interactua, o reliza tareas en el aplicativo o página WEB." DisplayName="Bloque Actividad 1" sap:VirtualizedContainerService.HintSize="712,4022" sap2010:WorkflowViewState.IdRef="State_2">
+                    <State x:Name="__ReferenceID1" sap2010:Annotation.AnnotationText="Bloque donde haremos el invoke del workflow que interactua, o reliza tareas en el aplicativo o página WEB." DisplayName="Bloque Actividad 1" sap:VirtualizedContainerService.HintSize="837,4456" sap2010:WorkflowViewState.IdRef="State_2">
                       <State.Entry>
-                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="666,3603" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                        <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="791,4037" sap2010:WorkflowViewState.IdRef="TryCatch_3">
                           <TryCatch.Try>
-                            <Sequence sap:VirtualizedContainerService.HintSize="628,3375" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                            <Sequence sap:VirtualizedContainerService.HintSize="753,3809" sap2010:WorkflowViewState.IdRef="Sequence_25">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="sd:DataTable" Name="dt_proyectosTraducidos" />
                               </Sequence.Variables>
@@ -332,8 +332,8 @@
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <ui:BuildDataTable DataTable="[dt_proyectosTraducidos]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="586,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Project_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Type&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Code&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
-                              <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="586,215" sap2010:WorkflowViewState.IdRef="OpenBrowser_4" Url="https://www.google.com/search?q=traductor&amp;sxsrf=AJOqlzXW7NqB-Rr86s9mn4km4TbpxfFwLg%3A1677344274698&amp;source=hp&amp;ei=Ej76Y_WjKJWpkdUPy_6j4A8&amp;iflsig=AK50M_UAAAAAY_pMIkGk2Xt7UX7AeUyjOx0XRIpFWzmm&amp;ved=0ahUKEwj19KCtkrH9AhWVVKQEHUv_CPwQ4dUDCAo&amp;uact=5&amp;oq=traductor&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyEAgAEIAEEBQQhwIQsQMQgwEyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCAgAELEDEIMBMggIABCxAxCDATIICAAQgAQQsQMyBQgAEIAEMgoIABCABBAUEIcCOgoIABCxAxCDARBDOgcIABCxAxBDOgQIABBDUABYpghgmwloAHAAeAGAAYgCiAGFCJIBBTcuMS4xmAEAoAEB&amp;sclient=gws-wiz">
+                              <ui:BuildDataTable DataTable="[dt_proyectosTraducidos]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="711,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Project_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Type&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Code&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Presupuesto&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
+                              <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="711,215" sap2010:WorkflowViewState.IdRef="OpenBrowser_4" Url="https://www.google.com/search?q=traductor&amp;sxsrf=AJOqlzXW7NqB-Rr86s9mn4km4TbpxfFwLg%3A1677344274698&amp;source=hp&amp;ei=Ej76Y_WjKJWpkdUPy_6j4A8&amp;iflsig=AK50M_UAAAAAY_pMIkGk2Xt7UX7AeUyjOx0XRIpFWzmm&amp;ved=0ahUKEwj19KCtkrH9AhWVVKQEHUv_CPwQ4dUDCAo&amp;uact=5&amp;oq=traductor&amp;gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyEAgAEIAEEBQQhwIQsQMQgwEyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATILCAAQgAQQsQMQgwEyCAgAELEDEIMBMggIABCxAxCDATIICAAQgAQQsQMyBQgAEIAEMgoIABCABBAUEIcCOgoIABCxAxCDARBDOgcIABCxAxBDOgQIABBDUABYpghgmwloAHAAeAGAAYgCiAGFCJIBBTcuMS4xmAEAoAEB&amp;sclient=gws-wiz">
                                 <ui:OpenBrowser.Body>
                                   <ActivityAction x:TypeArguments="x:Object">
                                     <ActivityAction.Argument>
@@ -350,13 +350,13 @@
                                   </ActivityAction>
                                 </ui:OpenBrowser.Body>
                               </ui:OpenBrowser>
-                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_proyectos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="586,2759" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_proyectos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="711,3193" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                                 <ui:ForEachRow.Body>
                                   <ActivityAction x:TypeArguments="sd:DataRow">
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                     </ActivityAction.Argument>
-                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="552,2638" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="677,3071" sap2010:WorkflowViewState.IdRef="Sequence_21">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="x:String" Name="code" />
                                       </Sequence.Variables>
@@ -365,7 +365,7 @@
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Assign sap:VirtualizedContainerService.HintSize="510,81" sap2010:WorkflowViewState.IdRef="Assign_24">
+                                      <Assign sap:VirtualizedContainerService.HintSize="635,82" sap2010:WorkflowViewState.IdRef="Assign_24">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="ui:GenericValue">[projectName]</OutArgument>
                                         </Assign.To>
@@ -373,7 +373,7 @@
                                           <InArgument x:TypeArguments="ui:GenericValue">[CurrentRow("Project Name").ToString]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <Assign sap:VirtualizedContainerService.HintSize="510,81" sap2010:WorkflowViewState.IdRef="Assign_22">
+                                      <Assign sap:VirtualizedContainerService.HintSize="635,82" sap2010:WorkflowViewState.IdRef="Assign_22">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[type]</OutArgument>
                                         </Assign.To>
@@ -381,7 +381,7 @@
                                           <InArgument x:TypeArguments="x:String">[CurrentRow("Type").ToString]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <Assign sap:VirtualizedContainerService.HintSize="510,81" sap2010:WorkflowViewState.IdRef="Assign_25">
+                                      <Assign sap:VirtualizedContainerService.HintSize="635,82" sap2010:WorkflowViewState.IdRef="Assign_25">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[code]</OutArgument>
                                         </Assign.To>
@@ -389,7 +389,7 @@
                                           <InArgument x:TypeArguments="x:String">[CurrentRow("Code").ToString]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <Assign sap:VirtualizedContainerService.HintSize="510,81" sap2010:WorkflowViewState.IdRef="Assign_23">
+                                      <Assign sap:VirtualizedContainerService.HintSize="635,82" sap2010:WorkflowViewState.IdRef="Assign_23">
                                         <Assign.To>
                                           <OutArgument x:TypeArguments="x:String">[description]</OutArgument>
                                         </Assign.To>
@@ -397,13 +397,13 @@
                                           <InArgument x:TypeArguments="x:String">[CurrentRow("Description").ToString]</InArgument>
                                         </Assign.Value>
                                       </Assign>
-                                      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe traductor'" sap:VirtualizedContainerService.HintSize="510,2066" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="9f4d22b6a9dbea01ca5bb33d7040c31e" Selector="&lt;html app='chrome.exe' title='traductor - Buscar con Google' /&gt;">
+                                      <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe traductor'" sap:VirtualizedContainerService.HintSize="635,2495" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="9f4d22b6a9dbea01ca5bb33d7040c31e" Selector="&lt;html app='chrome.exe' title='traductor - Buscar con Google' /&gt;">
                                         <ui:BrowserScope.Body>
                                           <ActivityAction x:TypeArguments="x:Object">
                                             <ActivityAction.Argument>
                                               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                             </ActivityAction.Argument>
-                                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,1919" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="601,2348" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                               <Sequence.Variables>
                                                 <Variable x:TypeArguments="x:String" Name="nombre" />
                                                 <Variable x:TypeArguments="x:String" Name="directorio" />
@@ -415,7 +415,7 @@
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'TEXTAREA  tw-source-tex...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="434,135" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[type]">
+                                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'TEXTAREA  tw-source-tex...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="559,135" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[type]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="da65910a-ba5e-4d12-89d4-e2b541328e4b" InformativeScreenshot="927241c76d531d26104456d5402f7527" Selector="&lt;webctrl tag='TEXTAREA' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -427,8 +427,8 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_1" />
-                                              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_4">
+                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="559,25" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="559,107" sap2010:WorkflowViewState.IdRef="GetValue_4">
                                                 <ui:GetValue.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cdd13e6b-9085-45a4-8e63-20904d0c7f8a" InformativeScreenshot="c25e6e1c4181afe5b0fe22eca14dba76" Selector="&lt;webctrl parentid='tw-target-text' tag='SPAN' aaname='*' class='Y2IQFc' isleaf='1' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -443,8 +443,8 @@
                                                   <OutArgument x:TypeArguments="x:String">[typeTraducido]</OutArgument>
                                                 </ui:GetValue.Value>
                                               </ui:GetValue>
-                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_7" />
-                                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'TEXTAREA  tw-source-tex...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="434,135" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="[description]">
+                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="559,25" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'TEXTAREA  tw-source-tex...'" EmptyField="True" sap:VirtualizedContainerService.HintSize="559,135" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="[description]">
                                                 <ui:TypeInto.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="da65910a-ba5e-4d12-89d4-e2b541328e4b" InformativeScreenshot="927241c76d531d26104456d5402f7527" Selector="&lt;webctrl tag='TEXTAREA' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -456,8 +456,8 @@
                                                   </ui:Target>
                                                 </ui:TypeInto.Target>
                                               </ui:TypeInto>
-                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_5" />
-                                              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="434,107" sap2010:WorkflowViewState.IdRef="GetValue_3">
+                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="559,25" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                                              <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'SPAN'" sap:VirtualizedContainerService.HintSize="559,107" sap2010:WorkflowViewState.IdRef="GetValue_3">
                                                 <ui:GetValue.Target>
                                                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cdd13e6b-9085-45a4-8e63-20904d0c7f8a" InformativeScreenshot="c25e6e1c4181afe5b0fe22eca14dba76" Selector="&lt;webctrl parentid='tw-target-text' tag='SPAN' aaname='*' class='Y2IQFc' isleaf='1' /&gt;">
                                                     <ui:Target.TimeoutMS>
@@ -472,9 +472,20 @@
                                                   <OutArgument x:TypeArguments="x:String">[descriptionTraducida]</OutArgument>
                                                 </ui:GetValue.Value>
                                               </ui:GetValue>
-                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="Delay_6" />
-                                              <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{CurrentRow(&quot;Project Name&quot;).ToString, typeTraducido, CurrentRow(&quot;Code&quot;).Tostring, descriptionTraducida}]" DataTable="[dt_proyectosTraducidos]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,186" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
-                                              <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_26">
+                                              <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="559,25" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                                              <Sequence sap2010:Annotation.AnnotationText="Calculamos Presupuesto" sap:VirtualizedContainerService.HintSize="559,386" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[type.Contains(&quot;Investigación&quot;).ToString]" sap:VirtualizedContainerService.HintSize="497,244" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                                                  <x:Null x:Key="" />
+                                                </Switch>
+                                              </Sequence>
+                                              <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{CurrentRow(&quot;Project Name&quot;).ToString, typeTraducido, CurrentRow(&quot;Code&quot;).Tostring, descriptionTraducida}]" DataTable="[dt_proyectosTraducidos]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="559,186" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                                              <Assign sap:VirtualizedContainerService.HintSize="559,82" sap2010:WorkflowViewState.IdRef="Assign_26">
                                                 <Assign.To>
                                                   <OutArgument x:TypeArguments="x:String">[nombre]</OutArgument>
                                                 </Assign.To>
@@ -482,7 +493,7 @@
                                                   <InArgument x:TypeArguments="x:String">[code+"_"+projectName+".xlsx"]</InArgument>
                                                 </Assign.Value>
                                               </Assign>
-                                              <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_27">
+                                              <Assign sap:VirtualizedContainerService.HintSize="559,82" sap2010:WorkflowViewState.IdRef="Assign_27">
                                                 <Assign.To>
                                                   <OutArgument x:TypeArguments="x:String">[directorio]</OutArgument>
                                                 </Assign.To>
@@ -490,7 +501,7 @@
                                                   <InArgument x:TypeArguments="x:String">C:\Users\M43529368\Desktop\Proyectos\</InArgument>
                                                 </Assign.Value>
                                               </Assign>
-                                              <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_28">
+                                              <Assign sap:VirtualizedContainerService.HintSize="559,82" sap2010:WorkflowViewState.IdRef="Assign_28">
                                                 <Assign.To>
                                                   <OutArgument x:TypeArguments="x:String">[carpeta]</OutArgument>
                                                 </Assign.To>
@@ -498,7 +509,7 @@
                                                   <InArgument x:TypeArguments="x:String">[Today.ToString("dd/MM/yyyy")]</InArgument>
                                                 </Assign.Value>
                                               </Assign>
-                                              <Assign sap:VirtualizedContainerService.HintSize="434,81" sap2010:WorkflowViewState.IdRef="Assign_29">
+                                              <Assign sap:VirtualizedContainerService.HintSize="559,82" sap2010:WorkflowViewState.IdRef="Assign_29">
                                                 <Assign.To>
                                                   <OutArgument x:TypeArguments="x:String">[carpetaFinal]</OutArgument>
                                                 </Assign.To>
@@ -506,8 +517,8 @@
                                                   <InArgument x:TypeArguments="x:String">[carpeta.replace("/", "_")]</InArgument>
                                                 </Assign.Value>
                                               </Assign>
-                                              <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dt_proyectosTraducidos]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="434,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Hoja1" WorkbookPath="[directorio+carpetaFinal+&quot;\&quot;+nombre]" />
-                                              <ui:BuildDataTable DataTable="[dt_proyectosTraducidos]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Project_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Type&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Code&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+                                              <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[dt_proyectosTraducidos]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="559,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Hoja1" WorkbookPath="[directorio+carpetaFinal+&quot;\&quot;+nombre]" />
+                                              <ui:BuildDataTable DataTable="[dt_proyectosTraducidos]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="559,60" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xD;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xD;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xD;&#xA;      &lt;xs:complexType&gt;&#xD;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xD;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xD;&#xA;            &lt;xs:complexType&gt;&#xD;&#xA;              &lt;xs:sequence&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Project_x0020_Name&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Type&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Code&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;                &lt;xs:element name=&quot;Presupuesto&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xD;&#xA;              &lt;/xs:sequence&gt;&#xD;&#xA;            &lt;/xs:complexType&gt;&#xD;&#xA;          &lt;/xs:element&gt;&#xD;&#xA;        &lt;/xs:choice&gt;&#xD;&#xA;      &lt;/xs:complexType&gt;&#xD;&#xA;    &lt;/xs:element&gt;&#xD;&#xA;  &lt;/xs:schema&gt;&#xD;&#xA;&lt;/NewDataSet&gt;" />
                                             </Sequence>
                                           </ActivityAction>
                                         </ui:BrowserScope.Body>
